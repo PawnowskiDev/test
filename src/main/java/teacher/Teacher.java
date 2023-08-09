@@ -2,6 +2,8 @@ package teacher;
 
 public class Teacher {
 
+    // todo tak samo jak w klasie student
+
     private int teacherId;
     private String teacherName;
     private String teacherSurname;
