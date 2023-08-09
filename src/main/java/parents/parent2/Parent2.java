@@ -1,14 +1,16 @@
 package parents.parent2;
 
-public class Parent2 {
+import user.User;
+
+public class Parent2 extends User {
 
     // todo tak samo jak w klasie student
 
-    private int parent2Id;
-    private String parent2Name;
-    private String parent2Surname;
-    private String parent2Email;
-    private String parent2Password;
-    private String parent2PhoneNumber;
 
+    public Parent2() {
+    }
+
+    public Parent2(int id, String name, String surname, String email, String password, String phoneNumber) {
+        super(id, name, surname, email, password, phoneNumber);
+    }
 }

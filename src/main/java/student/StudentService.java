@@ -21,8 +21,7 @@ public class StudentService {
         student.setEmail(resultSet.getString("email"));
         student.setPassword(resultSet.getString("password"));
         student.setPhoneNumber(resultSet.getString("phoneNumber"));
-        student.setGrades(resultSet.getString("grades"));
-        student.setBehaviourGrades(resultSet.getString("behaviourGrade"));
+
 
         return student;
     }

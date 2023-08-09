@@ -1,20 +1,15 @@
 package admin;
 
-public class Admin {
+import user.User;
+
+public class Admin extends User {
 
     // todo tak samo jak w klasie student
-
-    private String adminId;
-    private String adminName;
-    private String adminSurname;
-    private String adminEmail;
-    private String adminPassword;
-    private String adminPhoneNumber;
 
 
     // todo Metoda logowania admina
     public boolean login(String email, String password) {
-        return email.equals(adminEmail) && password.equals(adminPassword);
+        return email.equals(getEmail()) && password.equals(getPassword());
     }
 
     // todo Metoda tworzenia nowego nauczyciela
