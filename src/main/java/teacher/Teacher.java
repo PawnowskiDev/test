@@ -4,8 +4,6 @@ import user.User;
 
 public class Teacher extends User {
 
-    // todo tak samo jak w klasie student
-
     public Teacher() {
     }
 

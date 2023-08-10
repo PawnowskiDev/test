@@ -24,12 +24,12 @@ public class TeacgerService {
             if (resultSet.next()) {
 
                 Teacher teacher = new Teacher();
-                teacher.setTeacherId(resultSet.getInt("id"));
-                teacher.setTeacherName(resultSet.getString("name"));
-                teacher.setTeacherSurname(resultSet.getString("surename"));
-                teacher.setTeacherEmail(resultSet.getString("email"));
-                teacher.setTeacherPassword(resultSet.getString("password"));
-                teacher.setTeacherPhoneNumber(resultSet.getString("phoneNumber"));
+                teacher.setId(resultSet.getInt("id"));
+                teacher.setName(resultSet.getString("name"));
+                teacher.setSurname(resultSet.getString("surename"));
+                teacher.setEmail(resultSet.getString("email"));
+                teacher.setPassword(resultSet.getString("password"));
+                teacher.setPhoneNumber(resultSet.getString("phoneNumber"));
 
                 return teacher;
             }

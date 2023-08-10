@@ -4,8 +4,6 @@ import user.User;
 
 public class Parent1 extends User {
 
-    // todo tak samo jak w klasie student
-
 
     public Parent1() {
     }
